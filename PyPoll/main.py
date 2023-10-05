@@ -9,7 +9,7 @@ csv_path = os.path.join('Resources', 'election_data.csv')
 total_votes = 0 #starting at 0 each new row is one vote
 candidate_list = [] #empty list for new candidate names to be added into
 votesper_candidate = {} #an empty dictionary to hold {"candidate name": number of votes}
-candidate_elect = "" #some string to holed the winners name
+candidate_elect = "" #some string to hold the winners name
 elect_tally = 0 #initialize the variable to hold winning vote count
 
 
